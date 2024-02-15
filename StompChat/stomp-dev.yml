@@ -1,4 +1,6 @@
 spring:
+  kafka:
+    bootstrap-servers: localhost:9092
   h2:
     console:
       enabled: true
@@ -29,8 +31,6 @@ eureka:
 management:
   endpoints:
     web:
-
       exposure:
         include: '*'
-server:
-  port: 8085
+
