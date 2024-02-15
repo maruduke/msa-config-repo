@@ -1,3 +1,5 @@
+code:
+  test: value
 
 eureka:
   client:
