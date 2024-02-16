@@ -1,5 +1,6 @@
-code:
-  test: value
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
 
 eureka:
   client:
